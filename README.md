@@ -17,11 +17,20 @@ python3 secrect_love_letter.py -d -i encoded_output.txt -o decoded_output.txt
 
 ### Prerequisites
 
-Make sure you have Python 3 installed on your system.
+Make sure you have Python 3.11.XX installed on your system.
+
+### Creating Own Chiper
+by using SUBSTITUTION_CIPHER.py,You can creat your own encode or decode method.
+```bash
+python3 SUBSTITUTION_CIPHER.py
+```
+and copy the output and replace in secrect_love_letter.py's SUBSTITUTION_CIPHER variable
+Now only you have key and value for decode and encode 
+
 
 ### Installation
 
 Clone the repository to your local machine:
 
 ```bash
-git clone 
+git clone https://github.com/ZawwanZ/secret-word-encoder.git
